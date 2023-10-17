@@ -1,0 +1,146 @@
+{
+    "ChannelArguments": {
+        "InputChannel": [
+            {
+                "Type": "测试",
+                "CombineWay": "AC单端",
+                "SensorType": "加速度",
+                "Value": "0.102041",
+                "Unit": "mV/(g)"
+            },
+            {
+                "Type": "测试",
+                "CombineWay": "AC单端",
+                "SensorType": "加速度",
+                "Value": "0.102041",
+                "Unit": "mV/(g)"
+            },
+            {
+                "Type": "测试",
+                "CombineWay": "AC单端",
+                "SensorType": "加速度",
+                "Value": "0.102041",
+                "Unit": "mV/(g)"
+            },
+            {
+                "Type": "测试",
+                "CombineWay": "AC单端",
+                "SensorType": "加速度",
+                "Value": "0.102041",
+                "Unit": "mV/(g)"
+            }
+        ],
+        "Flur": [
+            {
+                "state":"关",
+                "stopFrequency":"3000",
+                "OTBAttenuation":"80",
+                "method":"自定义",
+                "rank":"CFC60",
+                "flurRate":"5"
+            },
+            {
+                "state":"关",
+                "stopFrequency":"3000",
+                "OTBAttenuation":"80",
+                "method":"自定义",
+                "rank":"CFC60",
+                "flurRate":"5"
+            },
+            {
+                "state":"关",
+                "stopFrequency":"3000",
+                "OTBAttenuation":"80",
+                "method":"自定义",
+                "rank":"CFC60",
+                "flurRate":"5"
+            },
+            {
+                "state":"关",
+                "stopFrequency":"3000",
+                "OTBAttenuation":"80",
+                "method":"自定义",
+                "rank":"CFC60",
+                "flurRate":"5"
+            }
+        ],
+        "dampingRatio":[
+            {
+                "dratio":"0.05",
+                "qvalue":"10"
+            },
+            {
+                "dratio":"0.05",
+                "qvalue":"10"
+            },
+            {
+                "dratio":"0.05",
+                "qvalue":"10"
+            },
+            {
+                "dratio":"0.05",
+                "qvalue":"10"
+            }
+        ],
+        "callibrate":[
+            {
+                "ATOP":"自动",
+                "outlier":"--"
+            },
+            {
+                "ATOP":"自动",
+                "outlier":"--"
+            },
+            {
+                "ATOP":"自动",
+                "outlier":"--"
+            },
+            {
+                "ATOP":"自动",
+                "outlier":"--"
+            }
+            
+        ],
+        "projectUnit":[
+            {
+                "Type":"位移",
+                "ShowUnit":"mm",
+                "TransformFactor":"0.001"
+            },
+            {
+                "Type":"速度",
+                "ShowUnit":"m/s",
+                "TransformFactor":"1"
+            },
+            {
+                "Type":"加速度",
+                "ShowUnit":"cm/s^2",
+                "TransformFactor":"0.01"
+            },
+            {
+                "Type":"力",
+                "ShowUnit":"N",
+                "TransformFactor":"1"
+            },
+            {
+                "Type":"质量",
+                "ShowUnit":"kg",
+                "TransformFactor":"1"
+
+            },
+            {
+                "Type":"量级",
+                "ShowUnit":"%",
+                "TransformFactor":"..."
+            },
+            {
+                "Type":"电压",
+                "ShowUnit":"V",
+                "TransformFactor":"1"
+            }
+             
+        ]
+
+        
+    }
+}

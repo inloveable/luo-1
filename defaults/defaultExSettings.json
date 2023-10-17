@@ -1,0 +1,106 @@
+{
+    "ShockReplayChartSettings":{
+        "pulseType":"半正弦波",
+        "standardType":"IEC",
+        "shockMachineType":"振动机",
+       "upLimit":"20.00",
+       "lowLimit":"20.00",
+        "acceleratePeek":"3000.00",
+        "pulseWidth":"28.44"
+    },
+    "ShockReplayExSettings":
+    {
+       "refFrequency":"20.00",
+       "min_fre":"27",
+       "max_fre":"5124",
+       "oct_step":"1/1",
+       "shockType":"绝对值",
+       "samplingTime":"100",
+       "shockTime":"2",
+       "sampleFrequency":"AUTO",
+       "restoreTime":"0"
+       
+    },
+    "ChartsSetting":{
+        "DisplaySettings":[
+            {
+                "Selected":"false",
+                "Color":"blue",
+                "Width":"1",
+                "Type":"实线"    
+            },
+            {
+                "Selected":"true",
+                "Color":"yellow",
+                "Width":"1",
+                "Type":"实线"    
+            },
+            {
+                "Selected":"true",
+                "Color":"green",
+                "Width":"1",
+                "Type":"实线"    
+            },
+            {
+                "Selected":"true",
+                "Color":"lightskyblue",
+                "Width":"1",
+                "Type":"实线"    
+            }
+        ],
+        "MouseSettings":[
+                {
+                    "Name":"LineCursor",
+                    "Color":"red"
+                },
+                {
+                    "Name":"ZoneCursor",
+                    "Color":"red"
+                }
+            ]
+                       
+    },
+    "ExperimentSettings":{
+        "FramePointCount":4096,
+        "SampleFrequency":192000,
+        "ShockTime":2.00,
+        "AllWaveWidth":48.00,
+        "MainWaveWidth":24,
+        "PeekSearchRangeMin":0,
+        "PeekSearchRangeMax":48,
+        "TimeTrigger":20.00
+        ,
+        "AllInput":[
+              10.00,
+              -12.00,
+              -2304       
+        ],
+        "FirstInput":[
+           10.00,
+            -12.00,
+            -2304       
+        ],
+      "SecondInput":[
+        10.00,
+        -12.00,
+        -2304       
+      ],
+    "ThirdInput":[
+    10.00,
+    -12.00,
+    -2304       
+    ],
+    "FouthInput":[
+        10.00,
+        -12.00,
+        -2304       
+    ]
+        
+         
+       
+}
+    
+
+    
+
+}

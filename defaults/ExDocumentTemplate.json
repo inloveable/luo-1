@@ -1,0 +1,30 @@
+ {
+    "ExperimentProperties":{
+        "ExperimentName":"",
+        "CreateTime":"",
+        "SampleCount":0,
+        "ExperimentSettingFile":"",
+        "ChannelArgSettingFile":""
+    },
+    "SampledData":{
+        "XArray":[[1,2]],
+        "YArray":[[1,2]]
+    },
+    "ProcessData":{
+        "XArray":[[1,2],[1,3]],
+        "YArray":[[1,2],[1,3]]
+    },
+    "ProcessDataProperties":[
+        {
+            "pulseWidthMiss":0,
+            "pulseWidth":0,
+            "speedChangeValue":0,
+            "speedChangeValueMiss":0,
+            "AcceleratePeek":0,
+            "AcceleratePeekMiss":0,
+            "ChannelNum":0
+        }
+    ]
+    
+      
+ }
